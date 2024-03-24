@@ -25,19 +25,19 @@ CorporatePresence Template provides an ideal solution for businesses looking to 
 - Optimized for performance and SEO
 
 ## Installation
-
 To use CorporatePresence Template, follow these steps:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/corporatepresence-template.git
 2. Navigate to the project directory:
-cd corporatepresence-template
+   ```bash
+    cd corporatepresence-template
+   
 3.Open the index.html file in your preferred web browser to view the template.
 
 
-
-Usage
+## Usage
 To customize CorporatePresence Template for your company website:
 
 Modify the HTML and CSS files to add your content and branding elements.
@@ -45,7 +45,7 @@ Replace placeholder images and text with your own company information.
 Customize the navigation menu and layout to meet your specific requirements.
 Feel free to explore and experiment with different features and design elements to create a unique and impactful website for your business.
 
-Contributing
+## Contributing
 If you would like to contribute to CorporatePresence Template, follow these steps:
 
 Fork the repository.
@@ -57,7 +57,5 @@ Push to the branch (git push origin feature-branch).
 Create a new Pull Request.
 
 
-
-
-
-Replace "yourusername" and "corporatepresence-template" with your GitHub username and repository name, respectively. Additionally, customize the usage instructions and contributing guidelines as needed based on the specific features and requirements of your template.
+**This project was developed by Jihad Al-Ibrahim Kamla
+**
