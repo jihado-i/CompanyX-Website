@@ -1,7 +1,5 @@
 # CompanyX-Website
 
-# CorporatePresence Template
-
 CorporatePresence Template is a professional and elegant HTML/CSS template designed for corporate or company websites. It offers a sleek and modern design, with customizable features to suit various business needs.
 
 ## Table of Contents
@@ -33,6 +31,9 @@ To use CorporatePresence Template, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/corporatepresence-template.git
+2. Navigate to the project directory:
+cd corporatepresence-template
+3.Open the index.html file in your preferred web browser to view the template.
 
 
 
