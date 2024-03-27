@@ -1,0 +1,61 @@
+.portofolio{
+    background-color: rgb(247, 247, 247);
+    width: 100%;    
+    padding: 0 0 35px 0;
+}
+.portofolio .portfolio-content{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-item{
+    padding: 10px 5px;
+    width: 32%;
+    position: relative;
+    transition: 1s;
+}
+.portfolio-item img{
+    background-size: cover;
+    max-width: 100%;
+}
+/* Portfolio - Layer */
+.layer-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 1;
+    display: none;
+    background-color: rgba(15, 15, 15, 0.5);    
+    transition: 1s;
+}
+.portfolio-item:hover .layer-content {
+    display: block;
+}
+
+.layer-content .layer-info{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+}
+.layer-content .layer-info .category{
+    font-size: 2rem;
+
+}
+.layer-info h2{
+    font-size: 1rem;
+    padding: 20px 0;
+}
+.layer-info i{
+    cursor: pointer;
+}
