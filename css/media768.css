@@ -1,0 +1,113 @@
+@media (max-width:768px) {
+
+    /*Home*/
+    .home .title {
+        font-size: 1.5rem;
+    }
+
+    .home-desc {
+        font-size: .8rem;
+    }
+
+    .home .btn {
+        padding: 10px 15px;
+    }
+
+    .header-section .section-title {
+        font-size: 2rem;
+    }
+
+    /*About*/
+    .about .container .about-content {
+        flex-direction: column;
+    }
+
+    .about .container .about-content .about-item {
+        width: 100%;
+    }
+
+    .about {
+        height: 95vh;
+    }
+
+    /*Portfolio*/
+    .portofolio .portfolio-content {
+        flex-direction: row;
+    }
+
+    .portfolio-item {
+        padding: 10px 5px;
+        width: 48%;
+    }
+
+    /*Layer*/
+    .layer-content .layer-info .category {
+        font-size: 1.5rem;
+    }
+
+    .layer-info h2 {
+        font-size: 1rem;
+        padding: 20px 0;
+    }
+
+    .offer .container .offer-content {
+        flex-direction: column;
+    }
+
+    .offer-content .offer-items {
+        width: 100%;
+    }
+
+    /*Statics*/
+    .stattics #t1,
+    .stattics #t2,
+    .stattics #t3,
+    .stattics #t4 {
+        font-size: 1.2rem;
+    }
+
+    /*Pricing*/
+    .pricing .container .pricing-plans {
+        flex-direction: column;
+    }
+
+    .pricing .pricing-item {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    /*testimonial*/
+    #tt1,
+    #tt2,
+    #tt3,
+    #tt4 {
+        font-size: 1rem;
+    }
+
+    .team .container .team-content {
+        flex-direction: column;
+    }
+
+    .team .container .team-content .team-item {
+        padding-top: 25px;
+        width: 100%;
+    }
+
+    /*Contact*/
+    .content-inputs-items .inp4 {
+        height: 15vh;
+    }
+
+    .contact .contact-content .contact-items {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .contact .contact-content .contact-item {
+        width: 100%;
+    }
+
+    .nav-menu .nav-item {
+        padding-left: 2px;
+    }
+}
