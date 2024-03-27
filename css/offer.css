@@ -1,0 +1,39 @@
+.offer{
+    background-color: transparent;
+}
+
+.offer .container .offer-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.offer-content .offer-items{
+    width: 30%;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    position: relative;
+    transition: 1s;
+    padding: 50px 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+.offer-items:hover{
+    background-color: black;
+    color: #ffffff;
+}
+.offer-items:hover .offer-item-desc{
+    color: rgb(168, 168, 168);
+}
+
+.offer-items .icon{
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    color: var(--primaryColor);
+}
+.offer-items .offer-item-title{
+    text-transform: capitalize;
+}
+.offer-items .offer-item-desc{
+    line-height: 1.5;
+}
