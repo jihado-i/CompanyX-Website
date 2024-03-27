@@ -1,0 +1,47 @@
+@media (max-width:1000px){
+    .header .nav li{
+        display: block;
+    }
+    .header .container .header-content .nav #listIcon{
+        display: none;
+    }
+    .home .title{
+        font-size: 2.2rem;
+    }
+    .home-desc{
+        line-height: 1.3;
+        font-size: .9rem;
+    }
+
+    .header .navbar ul .nav-item .nav-link{
+        font-size: .8rem;
+    }
+
+    /*Services*/
+    .service {
+        height: 140vh;
+    }
+    .service .container .service-content{
+        flex-direction: column;
+    }
+    .service .container .service-item {
+        padding-bottom: 25px;
+    }
+
+    /*Blog*/
+    .blog .blog-content {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .blog-item {
+        width: 100%;
+    }
+}
+
+@media (max-width:810px){
+    .header .header-content .navbar {
+        overflow-x: scroll;
+    }
+}
+
+
