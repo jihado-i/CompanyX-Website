@@ -1,0 +1,65 @@
+.service {
+    background-color: #f3f3f3;
+    height: 100vh;
+    padding: 50px 0;
+}
+
+.service .container .service-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.service-item p,
+.service-item ul {
+    margin: 20px 0;
+    color: #a6a6a6;
+    font-size: 17px;
+    line-height: 1.4;
+}
+.service-item{
+    width: 100%;
+}
+.service-item-image img {
+    width: 100%;
+}
+
+.service-list li {
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.service-list li i{
+    border: 3px solid var(--primaryColor);
+    border-radius: 50%;
+    padding: 4px 4px;
+    color: var(--primaryColor);
+}
+
+.service-item .service-item-image {
+    width: 90%;
+}
+.service-item .service-bollets {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+
+}
+.service-bollets li{
+    background-color: #ebebeb;
+    border: 2px solid rgb(136, 136, 136);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.service-bollets li:hover {
+    background-color: var(--primaryColor);
+}
+
+.service-bollets li.active {
+    background-color: var(--primaryColor);
+} 
