@@ -1,0 +1,40 @@
+.testimonail{
+    height: 100vh;
+    background-image: url("../images/background/background3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+}
+.testimonail .overlay{
+    position: relative;
+}
+.testimonail .overlay .container .testimonail-content{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonail-content .testimonail-item{
+    width: 48%;
+}
+.testimonail-item .testimonail-toplayer{
+    width: 100%;
+    color:rgb(0, 108, 197);
+} 
+
+.testimonail-item .testimonail-toplayer img{
+    border-radius: 50%;
+}
+
+.testimonail-item .trstimonail-toplayer h3{
+    font-size: 1rem;
+    color: var(--primaryColor);
+    font-weight: bolder;
+}
+.testimonail-item p{
+    padding: 20px 0;
+    color: white;
+}
