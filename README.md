@@ -12,6 +12,7 @@ CorporatePresence Template is a professional and elegant HTML/CSS template desig
 - [Contributing](#contributing)
 - [License](#license)
 
+
 ## Introduction
 
 CorporatePresence Template provides an ideal solution for businesses looking to establish a strong online presence. With its clean layout and user-friendly interface, it enables companies to showcase their products, services, and brand identity effectively.
