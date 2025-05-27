@@ -3,7 +3,7 @@
 CorporatePresence Template is a professional and elegant HTML/CSS template designed for corporate or company websites. It offers a sleek and modern design, with customizable features to suit various business needs.
  
 ## Table of Contents
- 
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
